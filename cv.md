@@ -7,7 +7,7 @@
 
 **1. Phone +375 29 123 45 67**
 
-**2. E-mail: alekseisv@mail.ru**
+**2. E-mail: alex@mail.ru**
 
 # Preffered method for contact - e-mail
 
@@ -29,11 +29,11 @@
 
 ### *Code examples*
 
-package by.Sverlov.task_7.controller;
+package ***.*****************.task_7.controller;
 
-import by.Sverlov.task_7.bean.RegExBean;
-import by.Sverlov.task_7.service.RegExService;
-import by.Sverlov.task_7.view.RegExView;
+import ***.*****************.task_7.bean.RegExBean;
+import ***.*****************.task_7.service.RegExService;
+import ***.*****************.task_7.view.RegExView;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
