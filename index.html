@@ -1,9 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<title>Моё CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="mem.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
+    <img src="mem.jpeg" width="200" height="200" alt="My meme!!!!">
+    <h1 id="comment_1">This is my meme!!! Alt has not worked by now...</h1>
+    <p style="text-align: center;">
+        to see the comment_1 property
+    </p>
+    <hr>
+    <section id="first">
+        <blockquote><p class="comment_2">Aleksei Sv</p></blockquote>
+        <hr> 
+    </section>
+
+    <section id="second">
+        <h1>Junior... yet...</h1>
+        <hr> 
+    </section>
+
+    <section id="third">
+        <h1 class="comment_2">Contact information</h1>
+        <p><tt>1. Phone +375 29 123 45 67<br>2. E-mail: alex@mail.ru<br>Preffered method for contact - e-mail</tt></p>
+        <hr> 
+    </section>
+
+    <section id="fourth">
+        <h1 class="comment_2">Me and my expirience</h1>
+        <br>
+        <table border="1" cellspacing="5" cellpadding="10">
+            <tr>
+                <th>
+                    Year
+                </th>
+                <th>
+                    Expirience
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    2022
+                </td>
+                <td>
+                    Graduate the java course
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2023
+                </td>
+                <td>
+                    Graduate the javascript course, I hope
+                </td>
+            </tr>
+        </table>
+        <hr> 
+    </section>
+
+    <section id="fivth">
+        <h1 class="comment_2">Skills</h1>
+        <ol>
+            <li>I can do:</li>
+                <ul>
+                    <li>this;</li>
+                </ul>
+                <ul>
+                    <li>that;</li>
+                </ul>
+            <li>I also can do:</li>
+            <ul>
+                <li>and this;</li>
+            </ul>
+            <ul>
+                <li>and that;</li>
+            </ul>
+        </ol>
+        <hr> 
+    </section>
+
+    <section id="sixth">
+        <h1 class="comment_2">Code examples</h1>
+            <p>package .******.task_7.controller;<br>
+
+            import .****.task_7.bean.RegExBean;<br>
+            import **.****.task_7.service.RegExService;<br>
+            import **.******.task_7.view.RegExView;<br>
+            import org.apache.logging.log4j.LogManager;<br>
+            import org.apache.logging.log4j.Logger;<br>
+            import java.io.IOException;<br><br><br>
+            
+            public class RegExController extends RegExService{<br>
+            
+            public static Logger logger = LogManager.getLogger(RegExController.class);<br>
+            // public static RegExController regExController; public static RegExBean regExBean;<br>
+            //public static RegExService regExService; public static RegExView regExView;<br>
+            
+            public  void main() {<br>
+            // regExController = new RegExController ();<br>
+             regExBean = new RegExBean ();<br>
+              regExService = new RegExService ();<br>
+               regExView = new RegExView ();<br>
+            
+                regExBean.setChoiceByTheUser(regExView.chooseByTheUser());<br>
+                try {<br>
+                    regExService.workWithRegEx(regExBean.getChoiceByTheUser());<br>
+                } catch (IOException e) {<br>
+                    e.printStackTrace();<br>
+                }<br>
+            
+                regExView.catchTheResult(regExService.answerForTheController());<br>
+            
+            } }<br>
+            </p>
+
+        <hr> 
+    </section>
+
+    <section id="seventh">
+        <h1 class="comment_2">Courses</h1>
+        <ol>
+            <li>
+                Java web development
+            </li>
+            <li>
+                Fundamentals of cloud technologies and web 2.0 services   
+            </li>
+        </ol>
+
+        <hr> 
+    </section>
+
+    <section id="eighth">
+        <h1 class="comment_2">Languages</h1>
+        <ul>
+            <li>
+                native - belorussian
+            </li>
+            <li>
+                can speak - russian, english. The last one - I have reached the A2+ level by now
+            </li>
+        </ul>
+
+        <hr> 
+    </section>
+
+    <section id="ninth">
+        <h1 class="comment_2">Hope your are satisfied!!!!!!!!!!!!!<br>😉</h1>
+        
+        <hr> 
+    </section>
+
+    <footer>
+        <p>I created it in 2023<br> <br> Copyright 2023 AlekseiSv</p>
+    <p>
+        <a href="https://github.com/alekseisv/rsschool-cv">Way to my works in github</a> 
+    </p>
+    <p style="text-align: center;"><img src="https://rs.school/images/rs_school_js.svg" width="200" height="200" alt="The school logo!!!">
+    </p>
+    <p style="text-align: center;"><a href="https://rs.school/js/">Want to study the JavaScript?<br>Join us!!!</a></p>
+    </footer>
+
+
 </body>
 </html>
