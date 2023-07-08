@@ -1,3 +1,28 @@
-p,li,h1 {
-  color: red;
+body {
+    display: block;
+    background-color: aquamarine;
+}
+
+#comment_1 {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: red;
+    border: 10px solid rgb(225, 230, 176);
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+}
+
+.comment_2 {
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 153, 255);
+}
+
+#fourth {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
 }
