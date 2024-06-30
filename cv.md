@@ -1,2 +1,2 @@
-[Connect to RSSchool][https://rs.school/]
+[Connect to RSSchool](https://rs.school/)
 
