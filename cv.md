@@ -60,4 +60,4 @@ Belarussian - native
 
 # Quick link to the schoole
 
-[![alt-текст](.\assets\rs-school-CZS_yQWd.webp "Quick link to the schoole!")](https://rs.school/)
+[![alt-текст](.\assets\Picture_1.png "Quick link to the schoole!")](https://rs.school/)
