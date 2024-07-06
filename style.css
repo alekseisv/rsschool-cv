@@ -1,5 +1,52 @@
-body {
-    margin: 10px;
-    background-color: wheat;
-    border: 1px solid black;
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: auto;
+    height: auto;
+    padding: 20px;background: wheat;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#h1NameView{
+    font-family: Forum;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: red;
+}
+
+#theSecondLineHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+#aNavView{
+    font-family: Inter;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: black;
+    text-decoration: none;
+}
+
+#aNavView:hover{
+    font-family: Inter;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: red;
+    text-decoration: none;
+}
+
+#theFooterLine{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
