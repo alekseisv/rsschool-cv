@@ -44,3 +44,9 @@ html{
     color: red;
     text-decoration: none;
 }
+
+#theFooterLine{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
