@@ -1,6 +1,6 @@
 # Aleksei Sverlov
 
-![Photo](avatar.webp)
+<img src="avatar.webp" alt="Photo" width="113">
 
 ## Contact Information
 
